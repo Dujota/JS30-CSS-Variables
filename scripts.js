@@ -8,6 +8,7 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 
   inputs.forEach(input => input.addEventListener('change', handleUpdate));
+  inputs.forEach(input => input.addEventListener('mousemove', handleUpdate));
 
 
 }, false);
